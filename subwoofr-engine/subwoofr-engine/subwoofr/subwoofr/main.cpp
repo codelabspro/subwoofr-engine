@@ -2,13 +2,17 @@
 //  main.cpp
 //  subwoofr
 //
-//  Created by Coder on 2022-11-26.
-//
 
 #include <iostream>
+#include "header.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    int a = 5;
+    int* p = &a;
+    std::cout << *p;
+    std::cout << std::endl;
+    system("PAUSE");
     return 0;
 }

@@ -6,3 +6,7 @@
 ## Steps
 
 g++ main.cpp
+
+## Links
+
+https://youtu.be/FBs7UoPy-sc
