@@ -23,9 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DC1A3A392932F364008BBC97 /* subwoofr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = subwoofr; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1A3A392932F364008BBC97 /* SubWoofrEngine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SubWoofrEngine; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1A3A3C2932F364008BBC97 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DC1A3A4329331029008BBC97 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		DC1A3A4429333CA1008BBC97 /* entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = entity.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +51,7 @@
 		DC1A3A3A2932F364008BBC97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC1A3A392932F364008BBC97 /* subwoofr */,
+				DC1A3A392932F364008BBC97 /* SubWoofrEngine */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +61,7 @@
 			children = (
 				DC1A3A3C2932F364008BBC97 /* main.cpp */,
 				DC1A3A4329331029008BBC97 /* header.h */,
+				DC1A3A4429333CA1008BBC97 /* entity.h */,
 			);
 			path = subwoofr;
 			sourceTree = "<group>";
@@ -67,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC1A3A382932F364008BBC97 /* subwoofr */ = {
+		DC1A3A382932F364008BBC97 /* SubWoofrEngine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC1A3A402932F364008BBC97 /* Build configuration list for PBXNativeTarget "subwoofr" */;
+			buildConfigurationList = DC1A3A402932F364008BBC97 /* Build configuration list for PBXNativeTarget "SubWoofrEngine" */;
 			buildPhases = (
 				DC1A3A352932F364008BBC97 /* Sources */,
 				DC1A3A362932F364008BBC97 /* Frameworks */,
@@ -79,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = subwoofr;
+			name = SubWoofrEngine;
 			productName = subwoofr;
-			productReference = DC1A3A392932F364008BBC97 /* subwoofr */;
+			productReference = DC1A3A392932F364008BBC97 /* SubWoofrEngine */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DC1A3A342932F364008BBC97 /* Build configuration list for PBXProject "subwoofr" */;
+			buildConfigurationList = DC1A3A342932F364008BBC97 /* Build configuration list for PBXProject "SubWoofrEngine" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC1A3A382932F364008BBC97 /* subwoofr */,
+				DC1A3A382932F364008BBC97 /* SubWoofrEngine */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC1A3A342932F364008BBC97 /* Build configuration list for PBXProject "subwoofr" */ = {
+		DC1A3A342932F364008BBC97 /* Build configuration list for PBXProject "SubWoofrEngine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC1A3A3E2932F364008BBC97 /* Debug */,
@@ -269,7 +271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC1A3A402932F364008BBC97 /* Build configuration list for PBXNativeTarget "subwoofr" */ = {
+		DC1A3A402932F364008BBC97 /* Build configuration list for PBXNativeTarget "SubWoofrEngine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC1A3A412932F364008BBC97 /* Debug */,
