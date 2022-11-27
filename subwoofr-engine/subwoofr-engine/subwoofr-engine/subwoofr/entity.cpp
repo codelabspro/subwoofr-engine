@@ -5,6 +5,8 @@
 
 #include "entity.h"
 
+int Entity::a = 2;
+
 Entity::Entity(int x, int y) {
     this->x = x;
     this->y = y;

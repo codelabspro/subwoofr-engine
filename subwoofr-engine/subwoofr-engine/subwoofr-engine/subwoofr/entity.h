@@ -6,6 +6,9 @@
 #pragma once
 
 class Entity {
+    
+public:
+    static int a;
 protected:
     int x, y;
     

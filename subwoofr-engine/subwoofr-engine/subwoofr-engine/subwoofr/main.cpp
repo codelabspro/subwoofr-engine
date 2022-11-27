@@ -43,6 +43,14 @@ int main(int argc, const char * argv[]) {
     
     std::cout << "-----------";
     std::cout << std::endl;
+    
+    std::cout << "-----------";
+    std::cout << std::endl;
+    
+    std::cout << Entity::a;
+    
+    std::cout << "-----------";
+    std::cout << std::endl;
 
     return 0;
 }
