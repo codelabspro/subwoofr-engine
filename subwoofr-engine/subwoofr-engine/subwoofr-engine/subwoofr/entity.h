@@ -11,13 +11,10 @@ protected:
     
 public:
     
-    Entity(int x, int y) {
-        this->x = x;
-        this->y = y;
-    }
+    Entity(int x, int y);
     
-    int getX() const { return x;};
-    int getY() const { return y;};
+    int getX() const;
+    int getY() const;
     
 
 };

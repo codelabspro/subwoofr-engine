@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC1A3A3D2932F364008BBC97 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1A3A3C2932F364008BBC97 /* main.cpp */; };
+		DC1A3A4729335E10008BBC97 /* entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1A3A4529335E0E008BBC97 /* entity.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 		DC1A3A3C2932F364008BBC97 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DC1A3A4329331029008BBC97 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 		DC1A3A4429333CA1008BBC97 /* entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = entity.h; sourceTree = "<group>"; };
+		DC1A3A4529335E0E008BBC97 /* entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = entity.cpp; sourceTree = "<group>"; };
+		DC1A3A4629335E0E008BBC97 /* entity.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = entity.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				DC1A3A3C2932F364008BBC97 /* main.cpp */,
 				DC1A3A4329331029008BBC97 /* header.h */,
 				DC1A3A4429333CA1008BBC97 /* entity.h */,
+				DC1A3A4529335E0E008BBC97 /* entity.cpp */,
+				DC1A3A4629335E0E008BBC97 /* entity.hpp */,
 			);
 			path = subwoofr;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1A3A4729335E10008BBC97 /* entity.cpp in Sources */,
 				DC1A3A3D2932F364008BBC97 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
